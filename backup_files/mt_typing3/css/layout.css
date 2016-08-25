@@ -1,0 +1,313 @@
+/* CSS Document */
+
+
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+background-image:url(../image/gradient_green.gif);
+background-repeat:repeat-x;
+}
+
+
+.usersession 
+{
+font-weight: bold;
+color: #004080;
+background-image:url(../image/gradient_green.gif);
+vertical-align: baseline;
+margin-top: 6px;
+margin-bottom: 1px;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: left;
+text-indent: 0cm;
+}
+
+
+.logout
+{
+font-weight: bold;
+color: #004080;
+}
+
+.tabtitle 
+{
+font-weight: bold;
+color:#FFFFFF;
+background-color:#7294AD;
+vertical-align: baseline;
+margin-top: 6px;
+margin-bottom: 1px;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: left;
+text-indent: 0cm;
+}
+
+.tabbody
+{
+height:50px;
+font-weight:bold;
+color: #004080;
+background-color: #DFDFDF;
+vertical-align: baseline;
+margin-top: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: center;
+text-indent: 0cm;
+}
+
+
+.tabbody1
+{
+height:180px;
+font-weight:bold;
+color: #004080;
+background-color: #DFDFDF;
+vertical-align: baseline;
+margin-top: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: center;
+text-indent: 0cm;
+}
+
+
+.newterm
+{
+font-weight:bold;
+color: #004080;
+background-color: #DFDFDF;
+vertical-align: baseline;
+margin-top: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: center;
+text-indent: 0cm;
+}
+
+input {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+
+.tableadmin{
+border: 1px solid #CCCCCC;
+font-size:12px;
+text-align:center;
+}
+
+
+.td {
+border: 1px solid #CCCCCC;
+font-size:12px;
+}
+
+
+.thadmin {
+font-size:12px;
+border: 1px solid #55739F;
+color:#FFFFFF;
+background-color:#7294AD;
+}
+
+img {
+border:none;
+}
+
+a {
+color:#FFFFFF;
+}
+
+.editTime {
+color: #004080;
+font-weight:bold;
+margin-left:394px;
+}
+
+.divExam {
+height:600px;
+background-color:#F8DFAB;
+border: 1px solid #F4CD7B;
+color: #004080;
+font-weight:bold;
+width:100%;
+}
+
+
+.divExam1 {
+height:600px;
+background-color:#F8DFAB;
+border: 1px solid #F4CD7B;
+color: #004080;
+font-weight:bold;
+width:100%;
+}
+
+
+.exam {
+overflow:visible;
+background-color:#FFFFFF;
+height:250px;
+color:#000000;
+margin-left:10px;
+margin-right:10px;
+font-size:12px;
+}
+
+
+.exam1 {
+overflow:visible;
+background-color:#FFFFFF;
+height:250px;
+color:#000000;
+margin-left:10px;
+margin-right:10px;
+font-size:12px;
+}
+
+
+textarea {
+margin-left:10px;
+margin-right:10px;
+}
+
+.buttons {
+width:180px; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight:bold;
+
+}
+
+.copyeditor {
+color:#FFFFFF;
+border:solid 1px #FFFFFF;
+overflow:hidden;
+}
+
+.results {
+font-weight:bold;
+border: 1px solid #B4C9BE;
+background-color:#DAE9E8;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+.span{
+font-weight:bold;
+color:#DD0000;
+font-style:italic;
+}
+
+
+.wpm{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#000099;
+font-style:italic;
+font-weight:bold;
+}
+
+.select {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+width:198px;
+}
+
+.divlogo {
+background-image:url(../image/logo.png);
+background-position:center;
+background-repeat:no-repeat;
+margin-right:515px;
+margin-top:50px;
+margin-left:525px;
+height:95px;
+margin-bottom:4px;
+}
+
+.frmLogin {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+width:10%;
+height:150px;
+background-color: #eeeeee;
+margin:0% 20% 5% 38%;
+border-collapse:collapse;
+color: #003399;
+white-space:pre;
+}
+
+.cname {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+margin-left:15px;
+font-size:24px;
+margin-bottom:130px;
+text-align:center;
+}
+
+
+.Login {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+background-color:#990000;
+color:#FFFFFF;
+text-align:center;
+border-collapse:collapse;
+border:0px solid #eeeeee;
+white-space:pre;
+}
+
+.titles {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+margin-left:10px;
+font-size:20px;
+text-align:center;
+color:#990000;
+}

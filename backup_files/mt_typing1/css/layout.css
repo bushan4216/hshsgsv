@@ -1,0 +1,169 @@
+/* CSS Document */
+
+
+body {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+
+
+.usersession 
+{
+font-weight: bold;
+color: #004080;
+background-color:#E4E4E4;
+vertical-align: baseline;
+margin-top: 6px;
+margin-bottom: 1px;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: left;
+text-indent: 0cm;
+}
+
+.tabtitle 
+{
+font-weight: bold;
+color:#FFFFFF;
+background-color:#7294AD;
+vertical-align: baseline;
+margin-top: 6px;
+margin-bottom: 1px;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: left;
+text-indent: 0cm;
+}
+
+.tabbody
+{
+height:50px;
+font-weight:bold;
+color: #004080;
+background-color: #DFDFDF;
+vertical-align: baseline;
+margin-top: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: center;
+text-indent: 0cm;
+}
+
+.newterm
+{
+font-weight:bold;
+color: #004080;
+background-color: #DFDFDF;
+vertical-align: baseline;
+margin-top: 0pt;
+margin-bottom: 0pt;
+margin-left: 0pt;
+margin-right: 0pt;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-left: 4px;
+padding-right: 4px;
+border-right-style: solid;
+border-right-width: 1px;
+border-right-color: #FFFFFF;
+border-color: #FFFFFF;
+text-align: center;
+text-indent: 0cm;
+}
+
+input {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+
+
+.tableadmin{
+border: 1px solid #CCCCCC;
+font-size:12px;
+text-align:center;
+}
+
+
+.td {
+border: 1px solid #CCCCCC;
+font-size:12px;
+}
+
+
+.thadmin {
+font-size:12px;
+border: 1px solid #55739F;
+color:#FFFFFF;
+background-color:#7294AD;
+}
+
+img {
+border:none;
+}
+
+a {
+color:#FFFFFF;
+}
+
+.editTime {
+color: #004080;
+font-weight:bold;
+margin-left:394px;
+}
+
+.divExam {
+height:600px;
+background-color:#F8DFAB;
+border: 1px solid #F4CD7B;
+color: #004080;
+font-weight:bold;
+width:1236px;
+}
+
+.exam {
+overflow:visible;
+background-color:#FFFFFF;
+height:250px;
+color:#000000;
+margin-left:10px;
+margin-right:10px;
+font-size:12px;
+}
+
+textarea {
+margin-left:10px;
+margin-right:10px;
+}
+
+.buttons {
+width:180px; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight:bold;
+
+}

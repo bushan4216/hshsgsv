@@ -1,0 +1,70 @@
+<?php
+include("../config.php");
+$frm = new Forms();
+
+$sqlNoWords= $frm->Query("SELECT  DISTINCT(NoWords) as NoWords1 FROM tbl_duration_time");
+
+$getNoWords = $frm->getArray($sqlNoWords);
+
+$count_chartspace = strlen(trim($_POST['ExamType']));
+
+$sqlInsert = $frm->Query("INSERT INTO tbl_exam_records (trainee_id, exam_taken,exam_type,duration_time,stop_time,date_started,date_stop,no_words,no_words_space)
+						 values ('".$_SESSION[SYSTEM_NAME]['user_id']."',
+						 		 '".addslashes(trim($_POST['ExamType']))."',
+						 		 '".addslashes(trim($_POST['TestTyping']))."',
+								 '".$_POST['DurationTime']."',
+								 '".$_POST['DurationStop']."',
+								 '".$_POST['DateStared']."',
+								 '".$_POST['DateStopped']."',
+								 '".$getNoWords['NoWords1']."',
+								 '".$count_chartspace."'
+								 )" );
+
+		if($sqlInsert) {
+		
+		$LastID = $frm->InsertID();
+		
+		$sqlView = $frm->Query("SELECT TRIM(exam_taken) as exam_taken, TRIM(exam_type) as exam_type, no_words,no_words_space, (-TIME_TO_SEC(TIMEDIFF(TIME(date_started), TIME(date_stop))) / 60) as Minutes
+								FROM tbl_exam_records WHERE exam_id  = '".$LastID."'");
+		$getWords = $frm->getArray($sqlView);
+		
+		echo 'Exam Taken';
+		echo '<br/>';
+		echo $count_takenchars = strlen($getWords['exam_taken']);
+		
+		echo '<br/>';
+		
+		echo 'Exam Type';
+		echo '<br/>';
+		echo $count_typechars = strlen($getWords['exam_type']);
+		
+		echo '<br/>';
+		
+		echo 'TOTAL Compute Errors ';
+		echo '<br/>';
+		echo $count_errors = ($count_takenchars - $count_typechars);
+		
+		echo '<br/>';
+		
+		echo ' TOTAL Compute Errors / 5';
+		echo '<br/>';
+		
+		echo $compute_chars = ($count_takenchars / 5);
+		
+		echo '<br/>';
+		
+		echo 'Compute Errors / Minutes - errors';
+		
+		echo '<br/>';
+		
+		echo $compute_wpm = (($compute_chars -  $count_errors) /  $getWords['Minutes']);
+		
+		echo '<br/>';
+		
+		echo $compute_wpm;
+			
+		
+		}
+
+
+?>
